@@ -1,6 +1,7 @@
 <script>
 
 import { obterCategorias} from '@/http/index';
+//import type ICategoria from '@/interfaces/ICategoria';
 
 export default {
 
@@ -14,6 +15,8 @@ export default {
     data() {
       return {
         categorias: []
+        //categorias: [] as ICategorias[]
+        //Não funciona....
       }
     },
 
